@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  background: orange;
+  //border: 1px solid black;
+}
+
+body{
+  font-family: sans-serif;
+}
+body, html{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#navigationBar {
+  position: fixed;
+  width: 240px;
+  height: 100vh;
+  background-color: orange;
+
+
+  padding-left: 48px;
+  padding-top: 200px;
+
+}
+
+#mainContainer {
+  margin-left: 240px;
+
+
+}
+
+#heroBanner{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 160px;
+  padding-left: 28px;
+  padding-top: 128px;
+
+  font-size: 16pt
+}
+
+#mainTitleText{
+  font-size: 64pt;
+
+}
+
+.sectionHeader{
+  text-decoration: underline;
+  text-align: center;
+  font-size: 48pt;
+}
+
+p{
+  font-size: 20pt;
+}
+
+.columnContainer{
+  display: flex;
+}
+
+.columnContainer p{
+  width: 98%;
+}
+
+.columnContainer2{
+  display: flex;
+}
+
+.columnContainer2 p{
+  width: 98%;
+}
+
+.contentSectionContainer{
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.footer{
+  font-size: 2em;
+  color: #000;
+  text-align: right;
+  }
